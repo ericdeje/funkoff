@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/fourtharrow.png-a56c65af9417e073c4b9a9ae9a6a5739.stex"
+path="res://.import/fourtharrow.png-d6872002ed4aba9929f08a600310ed41.stex"
 
 [deps]
 
-source_file="res://fourtharrow.png"
-dest_files=[ "res://.import/fourtharrow.png-a56c65af9417e073c4b9a9ae9a6a5739.stex" ]
+source_file="res://assets/img/inputs/fourtharrow.png"
+dest_files=[ "res://.import/fourtharrow.png-d6872002ed4aba9929f08a600310ed41.stex" ]
 
 [params]
 

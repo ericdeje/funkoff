@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/arrowpulse5.png-b8be64c2cb4eb05e7983bae04f1ed6c1.stex"
+path="res://.import/arrowpulse9.png-f15c44bb667b466f173b24a8def41145.stex"
 
 [deps]
 
-source_file="res://arrowpulse5.png"
-dest_files=[ "res://.import/arrowpulse5.png-b8be64c2cb4eb05e7983bae04f1ed6c1.stex" ]
+source_file="res://assets/img/pulse/arrowpulse9.png"
+dest_files=[ "res://.import/arrowpulse9.png-f15c44bb667b466f173b24a8def41145.stex" ]
 
 [params]
 

@@ -1,0 +1,75 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://scripts/InputBar/InputBar.gd" type="Script" id=1]
+[ext_resource path="res://scenes/InputBar/Input1.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/InputBar/Input2.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/InputBar/Input3.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/InputBar/Input4.tscn" type="PackedScene" id=5]
+
+[node name="InputBar" type="MarginContainer"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 1286.0
+margin_bottom = 509.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_constants/margin_right = 150
+custom_constants/margin_top = 150
+custom_constants/margin_left = 150
+custom_constants/margin_bottom = 150
+script = ExtResource( 1 )
+_sections_unfolded = [ "Size Flags", "custom_constants" ]
+
+[node name="InputBar" type="HBoxContainer" parent="." index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 150.0
+margin_top = 150.0
+margin_right = 1136.0
+margin_bottom = 359.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_constants/separation = 50
+alignment = 0
+_sections_unfolded = [ "custom_constants" ]
+
+[node name="Input1" parent="InputBar" index="0" instance=ExtResource( 2 )]
+
+[node name="Input2" parent="InputBar" index="1" instance=ExtResource( 3 )]
+
+margin_left = 259.0
+margin_right = 468.0
+
+[node name="Input3" parent="InputBar" index="2" instance=ExtResource( 4 )]
+
+margin_left = 518.0
+margin_right = 727.0
+
+[node name="Input4" parent="InputBar" index="3" instance=ExtResource( 5 )]
+
+margin_left = 777.0
+margin_right = 986.0
+
+[connection signal="beat" from="InputBar/Input1" to="." method="on_beat"]
+
+[connection signal="beat" from="InputBar/Input2" to="." method="on_beat"]
+
+[connection signal="beat" from="InputBar/Input3" to="." method="on_beat"]
+
+[connection signal="beat" from="InputBar/Input4" to="." method="on_beat"]
+
+
